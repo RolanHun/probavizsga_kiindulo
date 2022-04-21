@@ -26,6 +26,7 @@
     <main>
 
         <header>
+            <img class="logo" src="{{ url('/szamalklogo.png') }}">
             <h1 class="kozepre">Számalk-Szalézi technikum és Szakgimnázium 2020-2022 évfolyam szoftverfejlesztőinek szakdolgozatai</h1>
         </header>
         <section class="bejelentkezes kozepre">
@@ -46,44 +47,10 @@
             @endif
         </section>
         <article>
-            <div class="galeria">
-                <img src="./kepek/kep_11.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_1.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_2.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_8.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_3.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_10.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_4.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_5.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_6.png" alt="Szakdolgozat kép">
-            </div>
-
-
-
-
-
-
-            <div class="galeria">
-            </div>
+            
         </article>
         <footer class="kozepre">
-            Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+            
         </footer>
     </main>
     </div>

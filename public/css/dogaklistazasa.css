@@ -1,0 +1,39 @@
+.logo{
+    width: 5%;
+    margin-bottom: 2%;
+}
+body{
+    padding: 2%;
+}
+.szakdolgozatoklistazasa{
+    max-width: 85%;
+    margin: auto;
+}
+.fejlec{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr 0.2fr;
+}
+.szakdoga{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr 0.2fr;
+    padding: 1%;
+}
+a{
+    color:darkgoldenrod;
+}
+.ujadat{
+    margin: auto;
+    max-width: 80%;
+}
+.sor{
+    width: 80%;
+    float: right;
+}
+input{
+    width: 60%;
+    margin: 1%;
+    float: right;
+}
+.gomb{float: left;}

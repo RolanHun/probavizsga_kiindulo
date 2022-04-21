@@ -1,0 +1,21 @@
+.logo{
+    width: 5%;
+    margin-bottom: 2%;
+}
+body{
+    padding: 2%;
+}
+.szakdolgozatoklistazasa{
+    max-width: 85%;
+    margin: auto;
+}
+.fejlec{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr 0.2fr;
+}
+.szakdoga{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr 0.2fr;
+}
