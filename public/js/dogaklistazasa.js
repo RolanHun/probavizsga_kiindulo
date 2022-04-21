@@ -17,7 +17,7 @@ $(function(){
     $(window).on("torol", (event) => {
         let id = event.detail.id;
         Ajaxhivas.deleteAdat(apivegpont,id);
-        szakdogak.splice(0,szakdogak.length);
+        $(".szakdoga").empty();
         Ajaxhivas.getAdat(apivegpont , szakdogak , kiir);
     })
 
